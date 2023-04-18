@@ -33,6 +33,9 @@
 		D43D07FC29E0973300F9F33F /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D07FB29E0973300F9F33F /* HomeStatsView.swift */; };
 		D43D080029E102E700F9F33F /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D07FF29E102E700F9F33F /* MarketDataModel.swift */; };
 		D43D080229E1076300F9F33F /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D080129E1076300F9F33F /* MarketDataService.swift */; };
+		D49CA1E829EE971800A6FEA2 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49CA1E729EE971800A6FEA2 /* PortfolioView.swift */; };
+		D4CA7F0029EE9CEC008B7767 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CA7EFF29EE9CEC008B7767 /* XMarkButton.swift */; };
+		D4CA7F0229EEB641008B7767 /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CA7F0129EEB640008B7767 /* CoinLogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +66,9 @@
 		D43D07FB29E0973300F9F33F /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
 		D43D07FF29E102E700F9F33F /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
 		D43D080129E1076300F9F33F /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
+		D49CA1E729EE971800A6FEA2 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		D4CA7EFF29EE9CEC008B7767 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
+		D4CA7F0129EEB640008B7767 /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +174,7 @@
 				D41D11C329D9850E00740908 /* HomeView.swift */,
 				D41D11CF29DC276000740908 /* CoinRowView.swift */,
 				D43D07FB29E0973300F9F33F /* HomeStatsView.swift */,
+				D49CA1E729EE971800A6FEA2 /* PortfolioView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +186,7 @@
 				D41D11C729DA80BA00740908 /* CircleButton */,
 				D43D07F329DFF21400F9F33F /* SearchBarVIew.swift */,
 				D43D07F929E0922600F9F33F /* StatisticView.swift */,
+				D4CA7EFF29EE9CEC008B7767 /* XMarkButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -217,6 +225,7 @@
 			children = (
 				D41DE64B29DED9A3003AFC7B /* CoinImageView.swift */,
 				D41DE64D29DED9C9003AFC7B /* CoinImageViewModel.swift */,
+				D4CA7F0129EEB640008B7767 /* CoinLogoView.swift */,
 			);
 			path = CoinImage;
 			sourceTree = "<group>";
@@ -294,6 +303,7 @@
 				D43D07F829E090CD00F9F33F /* StatisticModel.swift in Sources */,
 				D41D11DA29DCD2A100740908 /* CoinDataService.swift in Sources */,
 				D41D11D029DC276000740908 /* CoinRowView.swift in Sources */,
+				D4CA7F0029EE9CEC008B7767 /* XMarkButton.swift in Sources */,
 				D41D11D629DCB7C900740908 /* HomeViewModel.swift in Sources */,
 				D41D11AF29D97D7400740908 /* ContentView.swift in Sources */,
 				D43D07F229DFB64600F9F33F /* LocalFileManager.swift in Sources */,
@@ -307,11 +317,13 @@
 				D41D11BE29D9812900740908 /* Color.swift in Sources */,
 				D40F6F4629DD29FB009B0676 /* NetworkingManager.swift in Sources */,
 				D41D11CB29DA898800740908 /* CircleButtonAnimationView.swift in Sources */,
+				D4CA7F0229EEB641008B7767 /* CoinLogoView.swift in Sources */,
 				D43D07FC29E0973300F9F33F /* HomeStatsView.swift in Sources */,
 				D43D080229E1076300F9F33F /* MarketDataService.swift in Sources */,
 				D41DE64E29DED9C9003AFC7B /* CoinImageViewModel.swift in Sources */,
 				D41D11D229DC282E00740908 /* PreviewProvider.swift in Sources */,
 				D43D07F429DFF21400F9F33F /* SearchBarVIew.swift in Sources */,
+				D49CA1E829EE971800A6FEA2 /* PortfolioView.swift in Sources */,
 				D41D11D429DC81EC00740908 /* Double.swift in Sources */,
 				D41DE64A29DED93C003AFC7B /* CoinImageService.swift in Sources */,
 				D41D11CE29DB1BAE00740908 /* CoinModel.swift in Sources */,
@@ -446,13 +458,13 @@
 				DEVELOPMENT_TEAM = HFG85UBJFK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = CryptoTracker;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoCurrency;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,13 +489,13 @@
 				DEVELOPMENT_TEAM = HFG85UBJFK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = CryptoTracker;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoCurrency;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
