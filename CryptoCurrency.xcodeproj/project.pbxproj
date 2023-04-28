@@ -38,6 +38,7 @@
 		D4CA7F0229EEB641008B7767 /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CA7F0129EEB640008B7767 /* CoinLogoView.swift */; };
 		D4CA7F0529F381E7008B7767 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4CA7F0329F381E7008B7767 /* PortfolioContainer.xcdatamodeld */; };
 		D4CA7F0729F38290008B7767 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CA7F0629F38290008B7767 /* PortfolioDataService.swift */; };
+		D4CA7F0929FB4E2A008B7767 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CA7F0829FB4E2A008B7767 /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		D4CA7F0129EEB640008B7767 /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 		D4CA7F0429F381E7008B7767 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		D4CA7F0629F38290008B7767 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
+		D4CA7F0829FB4E2A008B7767 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				D40F6F4529DD29FB009B0676 /* NetworkingManager.swift */,
 				D43D07F129DFB64600F9F33F /* LocalFileManager.swift */,
+				D4CA7F0829FB4E2A008B7767 /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				D43D07F629E0845C00F9F33F /* UIApplication.swift in Sources */,
 				D41D11C929DA80DD00740908 /* CircleButtonView.swift in Sources */,
 				D41D11BE29D9812900740908 /* Color.swift in Sources */,
+				D4CA7F0929FB4E2A008B7767 /* HapticManager.swift in Sources */,
 				D40F6F4629DD29FB009B0676 /* NetworkingManager.swift in Sources */,
 				D41D11CB29DA898800740908 /* CircleButtonAnimationView.swift in Sources */,
 				D4CA7F0229EEB641008B7767 /* CoinLogoView.swift in Sources */,
