@@ -22,6 +22,8 @@ struct CoinRowView: View {
             rightColumn
             .frame(width:UIScreen.main.bounds.width / 3.5,alignment: .trailing )
         }
+        .font(.subheadline)
+        .background(Color.theme.background.opacity(0.001))
         
     }
 }
