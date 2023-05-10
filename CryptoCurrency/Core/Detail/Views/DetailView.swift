@@ -37,7 +37,6 @@ struct DetailView: View {
             VStack {
                 ChartView(coin: vm.coin)
                     .padding(.vertical)
-                
                 VStack(spacing:20){
                     // overview
                     overviewTitle
