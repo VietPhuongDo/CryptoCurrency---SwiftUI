@@ -23,6 +23,7 @@ struct ChartView: View {
         minY = data.min() ?? 0
         
         let priceChange = (data.last ?? 0) - (data.first ?? 0)
+        // about data in last - data in first, if > 0 is green and < 0 is red
         lineColor = (priceChange>0) ? Color.theme.green : Color.theme.red
         
         endingDate = Date(coinGeckoString: coin.lastUpdated ?? "")
@@ -99,12 +100,12 @@ extension ChartView {
     
     private var chartYAxis: some View{
         VStack{
-            Text(maxY.formattedWithAbbreviations())
+            Text("$" + maxY.formattedWithAbbreviations())
             Spacer()
             let price = (maxY + minY) / 2
-            Text(price.formattedWithAbbreviations() )
+            Text("$" + price.formattedWithAbbreviations() )
             Spacer()
-            Text(minY.formattedWithAbbreviations())
+            Text("$" + minY.formattedWithAbbreviations())
         }
     }
     

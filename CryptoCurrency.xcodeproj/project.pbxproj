@@ -31,6 +31,7 @@
 		D4283C262A064BB8005A9D19 /* CoinDetailDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4283C252A064BB8005A9D19 /* CoinDetailDataService.swift */; };
 		D4283C282A0ABA25005A9D19 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4283C272A0ABA25005A9D19 /* ChartView.swift */; };
 		D4283C2A2A0AC62C005A9D19 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4283C292A0AC62C005A9D19 /* Date.swift */; };
+		D4283C2C2A0B2272005A9D19 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4283C2B2A0B2272005A9D19 /* String.swift */; };
 		D43D07F229DFB64600F9F33F /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D07F129DFB64600F9F33F /* LocalFileManager.swift */; };
 		D43D07F429DFF21400F9F33F /* SearchBarVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D07F329DFF21400F9F33F /* SearchBarVIew.swift */; };
 		D43D07F629E0845C00F9F33F /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43D07F529E0845C00F9F33F /* UIApplication.swift */; };
@@ -73,6 +74,7 @@
 		D4283C252A064BB8005A9D19 /* CoinDetailDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailDataService.swift; sourceTree = "<group>"; };
 		D4283C272A0ABA25005A9D19 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		D4283C292A0AC62C005A9D19 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		D4283C2B2A0B2272005A9D19 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		D43D07F129DFB64600F9F33F /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		D43D07F329DFF21400F9F33F /* SearchBarVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarVIew.swift; sourceTree = "<group>"; };
 		D43D07F529E0845C00F9F33F /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				D41D11D129DC282E00740908 /* PreviewProvider.swift */,
 				D43D07F529E0845C00F9F33F /* UIApplication.swift */,
 				D4283C292A0AC62C005A9D19 /* Date.swift */,
+				D4283C2B2A0B2272005A9D19 /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				D43D080229E1076300F9F33F /* MarketDataService.swift in Sources */,
 				D41DE64E29DED9C9003AFC7B /* CoinImageViewModel.swift in Sources */,
 				D41D11D229DC282E00740908 /* PreviewProvider.swift in Sources */,
+				D4283C2C2A0B2272005A9D19 /* String.swift in Sources */,
 				D43D07F429DFF21400F9F33F /* SearchBarVIew.swift in Sources */,
 				D49CA1E829EE971800A6FEA2 /* PortfolioView.swift in Sources */,
 				D41D11D429DC81EC00740908 /* Double.swift in Sources */,
