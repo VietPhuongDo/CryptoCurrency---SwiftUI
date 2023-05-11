@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xhW-D7-5vd">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-transparent" translatesAutoresizingMaskIntoConstraints="NO" id="7vy-H5-AFZ">
+                                        <rect key="frame" x="146.66666666666666" y="329.66666666666669" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="3Hm-1E-JHv"/>
+                                            <constraint firstAttribute="height" constant="100" id="9SY-wz-fdp"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" name="LaunchScreenBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="7vy-H5-AFZ" firstAttribute="centerY" secondItem="xhW-D7-5vd" secondAttribute="centerY" id="D4Y-f0-Qqb"/>
+                                    <constraint firstItem="7vy-H5-AFZ" firstAttribute="centerX" secondItem="xhW-D7-5vd" secondAttribute="centerX" id="Mpb-8Z-I4D"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="LaunchScreenBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="xhW-D7-5vd" secondAttribute="trailing" id="2QI-Ki-e8z"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="xhW-D7-5vd" secondAttribute="bottom" id="KIt-JY-eze"/>
+                            <constraint firstItem="xhW-D7-5vd" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="g2W-9N-0h6"/>
+                            <constraint firstItem="xhW-D7-5vd" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="jbT-1i-gMx"/>
+                            <constraint firstItem="xhW-D7-5vd" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="zJK-mS-xWx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131" y="-28"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo-transparent" width="322" height="323.33334350585938"/>
+        <namedColor name="LaunchScreenBackgroundColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -43,7 +43,7 @@ extension SettingView{
     private var infoAppSection: some View{
         Section(header: Text("About CryptoCurrency")){
             VStack(alignment: .leading){
-                Image("logo")
+                Image("logo-transparent")
                     .resizable()
                     .frame(width: 100, height: 100)
                     .clipShape(RoundedRectangle(cornerRadius: 20))

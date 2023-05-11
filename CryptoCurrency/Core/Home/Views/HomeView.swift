@@ -38,7 +38,13 @@ struct HomeView: View {
                 }
                 /// go to all coin
                 if showPortfolio{
-                    portfolioCoinList.transition(.move(edge: .trailing))
+                    ZStack(alignment: .top){
+                        if (vm.portfolioCoins.isEmpty && vm.searchText.isEmpty){
+                            emptyPortfolioText
+                        }
+                        else  {portfolioCoinList}
+                    }
+                  .transition(.move(edge: .trailing))
                 }
                 Spacer(minLength: 0)
             }
@@ -132,6 +138,16 @@ extension HomeView{
         selectedCoin = coin
         showDetailView.toggle()
     }
+    
+    private var emptyPortfolioText: some View{
+        Text("You haven't added any coins to your portfolio!Click the + button to add some coins 💸!")
+            .font(.callout)
+            .foregroundColor(Color.theme.accent)
+            .fontWeight(.medium)
+            .multilineTextAlignment(.center)
+            .padding(50)
+    }
+    
     /// 1 column in coin list
     private var columnTittles:some View{
         HStack{
